@@ -1,0 +1,8 @@
+def celsius_to_fahrenheit(celsius):
+
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+
+print(f"0°C in Fahrenheit is: {celsius_to_fahrenheit(0)}°F")
+print(f"25°C in Fahrenheit is: {celsius_to_fahrenheit(25)}°F")
+print(f"100°C in Fahrenheit is: {celsius_to_fahrenheit(100)}°F")
