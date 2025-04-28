@@ -3,3 +3,4 @@ def greet_person(name):
 
 name = "Adriana"
 print(greet_person(name))
+print("How are you?")
