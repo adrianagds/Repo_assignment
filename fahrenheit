@@ -3,6 +3,7 @@ def celsius_to_fahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
 
-print(f"0°C in Fahrenheit is: {celsius_to_fahrenheit(0)}°F")
-print(f"25°C in Fahrenheit is: {celsius_to_fahrenheit(25)}°F")
-print(f"100°C in Fahrenheit is: {celsius_to_fahrenheit(100)}°F")
+celsius_input = float(input("Enter the temperature in Celsius to convert to Fahrenheit: "))
+fahrenheit_result = celsius_to_fahrenheit(celsius_input)
+
+print(f"{celsius_input}°C in Fahrenheit is: {fahrenheit_result}°F")
